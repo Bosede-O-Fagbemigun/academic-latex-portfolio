@@ -1,0 +1,179 @@
+\documentclass[12pt,a4paper]{article}
+
+% --------------------------------------------------
+% Packages
+% --------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+
+% --------------------------------------------------
+% Theorem environments
+% --------------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+
+% --------------------------------------------------
+% Document information
+% --------------------------------------------------
+\title{Mathematical Typesetting Demonstration}
+\author{Dr. Bosede O. Fagbemigun}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This document demonstrates selected LaTeX techniques commonly
+used in mathematical research and academic writing, including
+mathematical notation, theorem environments, proofs, equations,
+matrices, tables, and cross-referencing.
+\end{abstract}
+
+\section{Introduction}
+
+LaTeX provides a structured environment for preparing mathematical
+and scientific documents. It is particularly useful when a document
+contains complex mathematical notation, numbered equations,
+theorem environments, tables, figures, and bibliographic references.
+
+\section{Mathematical Expressions}
+
+Consider the following inequality:
+
+\begin{equation}
+\left|
+\frac{1}{b-a}\int_a^b f(x)\,dx
+\right|
+\leq
+\frac{1}{b-a}\int_a^b |f(x)|\,dx.
+\label{eq:basic-inequality}
+\end{equation}
+
+Equation~\eqref{eq:basic-inequality} illustrates the use of numbered
+equations and internal cross-referencing.
+
+A more structured expression can be written as
+
+\begin{align}
+F(x)
+&= x^2 + 2x + 1 \\
+&= (x+1)^2.
+\label{eq:factorization}
+\end{align}
+
+The `align` environment allows multiple lines of mathematics to be
+aligned clearly.
+
+\section{Theorem and Proof}
+
+\begin{definition}
+A function $f:[a,b]\rightarrow\mathbb{R}$ is said to be convex if
+\[
+f(tx+(1-t)y)
+\leq
+tf(x)+(1-t)f(y)
+\]
+for all $x,y\in[a,b]$ and $t\in[0,1]$.
+\end{definition}
+
+\begin{theorem}
+Let $f:[a,b]\rightarrow\mathbb{R}$ be convex. Then for every
+$x,y\in[a,b]$ and $t\in[0,1]$,
+\[
+f(tx+(1-t)y)
+\leq
+tf(x)+(1-t)f(y).
+\]
+\end{theorem}
+
+\begin{proof}
+The result follows directly from the definition of convexity.
+The definition states precisely that the value of the function at
+a convex combination of two points does not exceed the corresponding
+convex combination of the function values.
+\end{proof}
+
+\section{Matrices}
+
+A matrix can be typeset using the \texttt{pmatrix} environment:
+
+\[
+A =
+\begin{pmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{pmatrix}.
+\]
+
+Its determinant may be represented by
+
+\[
+\det(A)
+=
+\begin{vmatrix}
+a_{11} & a_{12}\\
+a_{21} & a_{22}
+\end{vmatrix}.
+\]
+
+\section{Tables}
+
+Table~\ref{tab:example} demonstrates a simple academic table.
+
+\begin{table}[htbp]
+\centering
+\caption{Illustrative mathematical quantities}
+\label{tab:example}
+\begin{tabular}{ccc}
+\toprule
+Quantity & Symbol & Value \\
+\midrule
+Length & $L$ & $10$ \\
+Width & $W$ & $5$ \\
+Area & $A$ & $50$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Cross-References}
+
+LaTeX makes it possible to reference mathematical objects
+automatically. For example, Equation~\eqref{eq:factorization}
+shows a factorization, while Table~\ref{tab:example} presents
+illustrative numerical quantities.
+
+\section{Conclusion}
+
+This demonstration illustrates several features commonly required
+in mathematical and scientific manuscripts:
+
+\begin{itemize}
+    \item mathematical notation and equations;
+    \item theorem, definition, and proof environments;
+    \item matrices and structured mathematical expressions;
+    \item tables and captions;
+    \item labels and cross-references;
+    \item structured academic document preparation.
+\end{itemize}
+
+The source file can be compiled using a standard LaTeX distribution
+such as MiKTeX or through an online collaborative environment such
+as Overleaf.
+
+\end{document}
