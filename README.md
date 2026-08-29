@@ -1,46 +1,114 @@
 # Academic LaTeX & Research Portfolio
 
-## About This Portfolio
-This repository showcases my experience in academic writing, mathematical typesetting, LaTeX-based document preparation, bibliography management, and research documentation.
+## About
 
-I am a mathematician and academic researcher with experience preparing mathematical manuscripts, research reports, lecture materials, theses, and other scholarly documents using LaTeX and collaborative writing platforms.
+Welcome to my academic LaTeX and research documentation portfolio.
 
-The portfolio provides selected examples of my work with LaTeX, academic document preparation, mathematical notation, references, tables, figures, and research communication.
+I am a mathematician, university lecturer, and academic researcher with a Ph.D. in Mathematics. My academic work involves mathematical research, scholarly writing, literature-based research, mathematical modelling, statistical analysis, and preparation of research manuscripts.
 
-## Academic Background
-I hold a Ph.D. in Mathematics and work as a university lecturer and researcher. My research interests include Mathematical Analysis, Optimization, Survival Analysis, Approximation Theory, Computational Mathematics, Mathematical Modelling, Variational Analysis, and Mathematics Education.
+This repository provides selected examples of my experience with LaTeX-based academic writing and research documentation.
 
-My academic work involves literature-based research, preparation of research manuscripts, analysis and presentation of mathematical results, and collaboration with other researchers.
+---
 
 ## LaTeX & Academic Writing Experience
+
 My experience includes:
+
 - Preparing mathematical research manuscripts using LaTeX.
-- Mathematical typesetting involving equations, theorem environments, proofs, definitions, propositions, lemmas, corollaries.
-- Preparing academic documents with structured sections, tables, figures, equations, and cross-references.
-- Working with LaTeX editors and distributions, including TeXstudio and MiKTeX.
+- Mathematical typesetting of equations, inequalities, matrices, definitions, theorems, lemmas, propositions, and proofs.
+- Structuring academic documents with sections, subsections, tables, figures, captions, labels, and cross-references.
+- Preparing and revising research manuscripts for academic publication.
+- Working with TeXstudio and MiKTeX.
 - Using Overleaf for collaborative academic writing and research projects.
-- Managing references and citations for academic research.
-- Formatting mathematical and scientific documents for scholarly communication.
-- Revising and maintaining LaTeX source files during the research and publication process.
+- Managing bibliographic information and citations.
+- Maintaining reusable LaTeX source files and document templates.
 
-## Research & Documentation
-My research experience includes systematic literature reviews, bibliometric studies, mathematical modelling, statistical and survival analysis, and preparation of research manuscripts.
+---
 
-These activities require careful information retrieval, source verification, organization of evidence, accurate documentation, and clear presentation of research findings.
+## Portfolio Demonstrations
 
-## Portfolio Contents
+### 1. Mathematical Typesetting Demonstration
 
-This repository will contain selected examples demonstrating:
-1. Mathematical typesetting with LaTeX
-2. Academic document structure
-3. Mathematical equations and theorem environments
-4. Tables and figures
-5. Bibliography and citation management
-6. Research manuscript preparation
-7. Collaborative academic writing workflows
-8. Reusable LaTeX templates and examples
+A compact demonstration of mathematical typesetting and academic document structure.
 
-## Tools & Technologies
+**Demonstrates:**
+
+- Mathematical equations
+- Inequalities
+- Theorem and proof environments
+- Definitions
+- Matrices
+- Tables
+- Captions
+- Labels and cross-references
+- Structured academic writing
+
+**Source:**  
+[`mathematical-typesetting-demo.tex`](examples/mathematical-typesetting-demo.tex)
+
+---
+
+### 2. Bibliography & Citation Management
+
+A demonstration of structured bibliography management using a `.bib` database and BibLaTeX.
+
+**Demonstrates:**
+
+- Bibliographic databases
+- Structured reference entries
+- Author-year citations
+- In-text citations
+- Automatic bibliography generation
+- Separation of references from manuscript source
+
+**Source:**  
+[`bibliography-demo.tex`](examples/bibliography-demo.tex)
+
+**Bibliography database:**  
+[`references.bib`](examples/references.bib)
+
+---
+
+### 3. Mathematical Research Article Template
+
+A reusable research article template designed for mathematical writing.
+
+**Demonstrates:**
+
+- Academic article structure
+- Abstract and keywords
+- Definitions
+- Theorems
+- Lemmas
+- Propositions
+- Proofs
+- Mathematical equations
+- Tables
+- Figure integration
+- Cross-referencing
+- Bibliography integration
+- Reusable LaTeX organization
+
+**LaTeX source:**  
+[`research-article-template.tex`](templates/research-article-template.tex)
+
+**Compiled PDF:**  
+[`research-article-template.pdf`](templates/research-article-template.pdf)
+
+---
+
+## Research & Academic Documentation
+
+My research experience includes mathematical analysis, optimization, survival analysis, approximation theory, computational mathematics, mathematical modelling, variational analysis, mathematics education, and bibliometric research.
+
+Academic research also requires careful literature searching, source evaluation, organization of evidence, accurate citation, reproducible documentation, and clear communication of results.
+
+This portfolio is therefore intended not only to demonstrate LaTeX syntax, but also the structured academic workflow in which LaTeX is used.
+
+---
+
+## Tools
+
 - LaTeX
 - TeXstudio
 - MiKTeX
@@ -48,10 +116,18 @@ This repository will contain selected examples demonstrating:
 - BibTeX / BibLaTeX
 - GitHub
 
-## Purpose
-This portfolio is intended to provide a practical demonstration of my experience with academic document preparation and research-oriented LaTeX workflows.
+---
 
-It is also a growing collection of examples and reusable resources developed from my experience as a mathematician, lecturer, and researcher.
+## Portfolio Development
 
-**Dr. Bosede O. Fagbemigun**  
-Ph.D. Mathematics | Academic Researcher | University Lecturer
+This repository is a growing portfolio. Additional examples may include selected mathematical research documents, academic templates, bibliography resources, and research-oriented computational work where appropriate.
+
+---
+
+## Author
+
+**Dr. Bosede O. Fagbemigun**
+
+Ph.D. Mathematics | University Lecturer | Academic Researcher
+
+GitHub: [Bosede-O-Fagbemigun](https://github.com/Bosede-O-Fagbemigun)
